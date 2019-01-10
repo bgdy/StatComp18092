@@ -1,5 +1,5 @@
 
-#' @title Use three inputs to predict response using R.
+#' @title qwqqq
 #' @description The prediction model is described in http://www.babelgraph.org/wp/?p=358.
 #' @param age the first predictor (numeric)
 #' @param female the second predictor (logical)
