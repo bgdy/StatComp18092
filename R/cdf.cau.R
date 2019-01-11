@@ -10,7 +10,7 @@
 #' cdf.cau(2,3,5)
 #' }
 #' @export
-cdf.cau <- function(y,eta1=0,theta1=1){  #integrate
+cdf.cau <- function(y,eta1=0,theta1=1){
   f=function(x,eta=eta1,theta=theta1){   # function
     return(1/(theta*pi*(1+((x-eta)/theta)^2)))
   }
