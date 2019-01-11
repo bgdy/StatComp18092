@@ -4,7 +4,7 @@
 \alias{get.beta}
 \title{generate a random sample from the Beta(a, b) distribution using R.}
 \usage{
-get.beta(n, a, b)
+get.beta(n, a = 1, b = 1)
 }
 \arguments{
 \item{n}{size of random sample (numeric)}

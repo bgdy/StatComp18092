@@ -10,7 +10,7 @@
 #' get.beta(1e2,2,3)
 #' }
 #' @export
-get.beta=function(n,a,b){
+get.beta=function(n,a=1,b=1){
   if(a<=0||b<=0){
     return("a,b should bigger than 0")
   }
