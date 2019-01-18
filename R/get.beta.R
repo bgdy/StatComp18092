@@ -8,6 +8,10 @@
 #' \dontrun{
 #' get.beta(10,3,2)
 #' get.beta(1e2,2,3)
+#' a=get.beta(1000,3,2)
+#' hist(a,probability = TRUE , main = expression(f(x)==x^(3-1)*(1-x)^(2-1)/beta(3,2)))
+#' x=seq(0,1,0.01)
+#' lines(x,x^(3-1)*(1-x)^(2-1)/beta(3,2))
 #' }
 #' @export
 get.beta=function(n,a=1,b=1){

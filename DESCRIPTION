@@ -1,10 +1,10 @@
 Package: StatComp18092
 Type: Package
-Title: Example functions for 'Statistical Computing' course 18092
+Title: Three functions for 'Statistical Computing' course 18092
 Version: 9.9.9
 Author: 18092
 Maintainer: Guo Shiwei <gsw@mail.ustc.edu.cn>
-Description: Several R and Rcpp function are included in this package for illustration.
+Description: Three functions generate cdf and random sample.
 License: GPL (>= 2)
 Imports: MASS, boot, DAAG, Ball
 Encoding: UTF-8
